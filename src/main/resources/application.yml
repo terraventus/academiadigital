@@ -1,0 +1,23 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/academia
+    username: mathias
+      password: root
+
+      jpa:
+        show-sql: true
+        hibernate: true
+        ddl-auto: update
+
+        properties:
+          hibernate.format_sql: true
+
+  logging:
+    level:
+      org:
+        hibernate:
+          type: trace
+
+
+
